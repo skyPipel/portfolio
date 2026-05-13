@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alya Azzahra Putri | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Alya.</div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero reveal">
+    <div class="hero-text">
+      <p class="small">DKV Student • Visual Storyteller</p>
+      <h1>Alya Azzahra Putri</h1>
+      <p class="tagline">
+        Building stories, visuals, and interactive experiences.
+      </p>
+      <a href="#portfolio" class="btn">Lihat Karya</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/pp.jpg" alt="Profile">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section reveal">
+    <h2>About Me</h2>
+    <p class="desc">
+      Saya mahasiswa DKV semester 6 di tahun 2026. Saat ini sedang
+      mengembangkan prototype visual novel romance sendiri sebagai
+      eksplorasi desain visual, ilustrasi, dan storytelling interaktif.
+    </p>
+
+    <div class="skills">
+
+      <div class="skill">
+        <span>Illustration</span>
+        <div class="bar"><div class="fill" data-width="90%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Visual Design</span>
+        <div class="bar"><div class="fill" data-width="65%"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>HTML / CSS / JS Basics</span>
+        <div class="bar"><div class="fill" data-width="35%"></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section reveal">
+    <h2>Selected Works</h2>
+
+    <div class="filters">
+      <button class="active" data-filter="all">Semua</button>
+      <button data-filter="ui">UI / UX</button>
+      <button data-filter="illustration">Ilustrasi</button>
+      <button data-filter="poster">Poster</button>
+      <button data-filter="branding">Branding</button>
+    </div>
+
+    <div class="grid">
+
+      <div class="card" data-category="ui">
+        <img src="images/bg_drawing.jpg" alt="">
+        <div class="card-info">
+          <h3>Background drawing</h3>
+          <p>Corridor</p>
+        </div>
+      </div>
+
+      <div class="card" data-category="illustration">
+        <img src="images/fotografi.jpg" alt="">
+        <div class="card-info">
+          <h3>Photography</h3>
+          <p>High contrast</p>
+        </div>
+      </div>
+
+      <div class="card" data-category="poster">
+        <img src="images/logo.jpg" alt="">
+        <div class="card-info">
+          <h3>Logo</h3>
+          <p>Ear</p>
+        </div>
+      </div>
+
+      <div class="card" data-category="branding">
+        <img src="images/poster_edukasi.jpg" alt="">
+        <div class="card-info">
+          <h3>Education poster</h3>
+          <p>Bisindo</p>
+        </div>
+      </div>
+
+      <div class="card" data-category="ui">
+        <img src="images/poster_film.jpg" alt="">
+        <div class="card-info">
+          <h3>Graphic Design</h3>
+          <p>Movie poster</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section reveal">
+    <h2>Contact</h2>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Nama" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Pesan" required></textarea>
+      <button type="submit" class="btn">Kirim</button>
+    </form>
+
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Email</a>
+      <a href="#">Behance</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Alya Azzahra Putri</p>
+  </footer>
+
+  <button id="topBtn">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
